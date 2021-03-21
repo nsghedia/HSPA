@@ -1,6 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { HousingService } from 'src/app/Services/housing.service';
+import { IProperty } from '../IProperty.inteface';
 
 @Component({
   selector: 'app-property-list',
@@ -9,7 +10,7 @@ import { HousingService } from 'src/app/Services/housing.service';
 })
 export class PropertyListComponent implements OnInit {
 
-  Propertes:Array<any>=[]; 
+  Propertes:Array<IProperty>=[]; 
 
   constructor(private housingservice:HousingService) { }
 
