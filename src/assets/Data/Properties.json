@@ -22,11 +22,26 @@
           {
             "Id":5,
             "Type":"Farm House",
-            "Price":"50,00,000"
+            "Price":"5,00,000"
             },
             {
               "Id":6,
               "Type":"House",
-              "Price":"16000"
+              "Price":"16,000"
+              },
+   {
+          "Id":7,
+          "Type":"Flat",
+          "Price":"84,000"
+          },
+          {
+            "Id":8,
+            "Type":"Farm House",
+            "Price":"5,40,000"
+            },
+            {
+              "Id":9,
+              "Type":"House",
+              "Price":"1,68,00"
               }
 ]
